@@ -1,9 +1,8 @@
 # Lab Report 1
 #### Anthony Tong, CSE 15L | PID A17720195
-v2
 ## Sample commands
 
-1. Using `cd`
+### Using `cd`
 
 With no arguments, we simply return to the home directory:
 - Current working directory: `/home/lecture1`
@@ -27,7 +26,7 @@ Finally, if we include the path to a file as an argument, it throws an error bec
 bash: cd: Hello.java: Not a directory
 ```
 
-2. Using `ls`
+### Using `ls`
 
 With no arguments, we simply list the files of the current working directory:
 - Current working directory: `/home/lecture1`
@@ -51,7 +50,7 @@ Finally, if we include the path to a file as an argument, it lists that file spe
 Hello.class
 ```
 
-3. Using `cat`
+### Using `cat`
 
 With no arguments, it enters an input mode which echoes your input back to you:
 - Current working directory: `/home/lecture1`

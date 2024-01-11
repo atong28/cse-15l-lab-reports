@@ -1,6 +1,6 @@
 # Lab Report 1
 #### Anthony Tong, CSE 15L | PID A17720195
-
+v2
 ## Sample commands
 
 1. Using `cd`
@@ -75,6 +75,7 @@ cat: messages: Is a directory
 Finally, if we include the path to a file as an argument, it prints the contents of the file:
 - Current working directory: `/home/lecture1`
 - No error
+
 ```
 [user@sahara ~/lecture1]$ cat Hello.java
 import java.io.IOException;

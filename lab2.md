@@ -3,8 +3,7 @@
 
 ## Part 1: Creating a Chat Server
 
-Our goal for this lab report is to create a chat server, where we can send messages by accessing the path `/add-message` and making a query with `s=<message>` and `user=<username>`. For example, we should be able to access our web server and add a message with the following url:
-```https://localhost:4000/add-message?s=HelloWorld&user=atong```
+Our goal for this lab report is to create a chat server, where we can send messages by accessing the path `/add-message` and making a query with `s=<message>` and `user=<username>`. For example, we should be able to access our web server and add a message with the url `https://localhost:4000/add-message?s=HelloWorld&user=atong`.
 
 Below is the implementation for the code.
 

@@ -91,4 +91,4 @@ Example of logging in without entering passwords:
 
 ## Part 3: What I Learned
 
-These two labs were just a review of my ability to navigate the terminal, and it seems I remember them.
+These two labs were just a review of my ability to navigate the terminal commands, and it seems I remember them. For example, we used `scp` and set up public key authentication on a remote host to save time. It was also interesting to work with the Java webserver methods as I am familiar with the Python counterpart and `SimpleHTTPRequestHandler`, etc. It does serve as a good, basic intro to most people who do not have prior experience with the subject.

@@ -65,7 +65,13 @@ We can break down our query
 
 into little parts. First, when we access the URL `http://localhost:4000`, we trigger the `Server` object in the `ChatServer` class to call `handleRequest`, located in the `Handler` class. When this happens, we have access to the entire URI above. We can therefore find the request path, in our case `/add-message`, by calling `url.getPath()`. Once we have entered this block, we confirm that the input query is valid, i.e. it must fit the format `s=<message>&user=<username>` by splitting the arguments into 4 items. 
 
-Once we have validated that the request is properly formatted, we simply add our chat message to an ArrayList stored as an instance variable `messages` in the Handler class. Notice that there is also a formatting string neatly placed as a constant in the class that we can use to template our message format. When we add our chat message, then `messages` gets updated with an additional entry, temporarily stored in memory -- when we restart the server, all of our updates will be lost. 
+Once we have validated that the request is properly formatted, we simply add our chat message to an ArrayList stored as an instance variable `messages` in the Handler class. Notice that there is also a formatting string neatly placed as a constant in the class that we can use to template our message format. When we add our chat message, we append the formatted String message to the `messages` ArrayList. In other words, we have a chat history stored in `messages` before we make the call to `/add-message`, and afterwards the ArrayList has a new entry as a result of our query. Note that `messages` is temporarily stored in memory -- when we restart the server, all of our updates will be lost. 
+
+Let's try again, and notice that the history is saved while the server is running:
+
+![Screenshot 6](./images/lab2_ss6.png)
+
+Notice that the chat history from the first call is saved, and the second is added.
 
 What happens if we try to make an invalid request?
 

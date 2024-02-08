@@ -7,3 +7,7 @@
 ## Lab 2
 
 [Report](./lab2)
+
+## Lab 3
+
+[Report](./lab3)

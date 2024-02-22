@@ -11,3 +11,7 @@
 ## Lab 3
 
 [Report](./lab3)
+
+## Lab 4
+
+[Report](./lab4)
